@@ -1,0 +1,81 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+  }
+  
+  table {
+    width: 50%;
+    margin: 20px 0;
+    border-collapse: collapse;
+  }
+  
+  td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  /* Form Styles */
+  form {
+    margin: 20px 0;
+  }
+  
+  input[type="text"] {
+    width: 60%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .gender {
+    margin: 10px 0;
+  }
+  
+  .gender label {
+    margin-right: 15px;
+  }
+  
+  input[type="checkbox"] {
+    margin-left: 10px;
+  }
+  
+  /* Styling for the table rows */
+  table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  table tr:nth-child(odd) {
+    background-color: #fff;
+  }
+  
+  /* Styling for the table headers */
+  table td:first-child {
+    font-weight: bold;
+    background-color: #f1f1f1;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    table {
+      width: 100%;
+    }
+  
+    input[type="text"] {
+      width: 100%;
+    }
+  }
+.select
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 200px;
+    margin-top: 10px;
+}  
+textarea{
+    margin-top: 10px;
+}
